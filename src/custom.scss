@@ -1,16 +1,28 @@
 
+$primary: #58484a;
+$secondary: #201d1d;
+$accent: #00bcd4;
+$dark: #564949;
+$light: #f2f2f2;
+$success: #00e676;
+$danger: #ff1744;
+$warning: #ff9100;
+$info: #29b6f6;
+$font-family-base: 'Bebas Neue', sans-serif;
+$font-size-base: 1rem;
+$font-size-lg: 1.25rem;
+$font-size-sm: 0.875rem;
+$spacer: 1rem;
+$spacer-sm: 0.5rem;
+$spacer-lg: 2rem;
+$border-radius: 0.5rem;
+$border-width: 1px;
+$border-color: $secondary;
+$box-shadow-sm: 0 0 10px rgba($accent, 0.5);
+$transition-base: all 0.3s ease-in-out;
 
 
-@import "../node_modules/bootstrap/scss/bootstrap";
-@import "../node_modules/bootstrap/scss/variables";
-@import "../node_modules/bootstrap/scss/variables-dark";
-@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables"; 
 @import "../node_modules/bootstrap/scss/mixins";
-@import "../node_modules/bootstrap/scss/root";
-// Optional components
-@import "../node_modules/bootstrap/scss/utilities";
-@import "../node_modules/bootstrap/scss/reboot";
-@import "../node_modules/bootstrap/scss/containers";
-@import "../node_modules/bootstrap/scss/grid";
-@import "../node_modules/bootstrap/scss/helpers";
-@import "../node_modules/bootstrap/scss/utilities/api";
+@import "../node_modules/bootstrap/scss/bootstrap"; 
